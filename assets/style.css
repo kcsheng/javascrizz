@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@500;700&display=swap");
+
+:root {
+  --red: #e63946;
+  --bright: #f1faee;
+  --greyblue: #457b9d;
+  --lightblue: #a8dadc;
+  --darkblue: #1d3557;
+}
+
+* {
+  font-family: Kodchasan, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--darkblue);
+}
+
+h1 {
+  font-size: 65px;
+  color: var(--bright);
+}
+
+.score-timer {
+  color: var(--lightblue);
+  width: 800px;
+  max-width: 80%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  display: block;
+  background-color: var(--greyblue);
+  color: var(--bright);
+  padding: 7px 10px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.wrapper {
+  background-color: var(--bright);
+  border-radius: 15px;
+  width: 800px;
+  max-width: 80%;
+}
+
+.question {
+  color: var(--red);
+  padding: 30px 50px 0px 50px;
+  font-size: 35px;
+}
+
+.btns-flex {
+  height: 300px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}

@@ -12,8 +12,20 @@ Load the page on the browser. Click on start button and choose the correct answe
 
 The game includes the following features:
 
-- Leaderboard
+- Clickable questions and leaderboard
 - Timer countdown, wrong answer leads to time panelty.
-- Question reorder for each game
+- Question re-order for each game
 - Clear and interactive interface
 - Sound effects
+
+### Flowchart
+
+![the diagram of javaScrizz program flow](./assets/flowchart.png)
+
+### Quiz page
+
+![the question page](./assets/question-page.png)
+
+### Leaderboard page
+
+![the leaderboard page](./assets/leaderboard.png)

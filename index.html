@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/index.css" />
     <title>JavaScrizz</title>
   </head>
   <body>
     <h1>JavaScrizz</h1>
     <div class="score-timer">
       <div class="score">
-        <p>Score: <span id="score">15</span></p>
+        <p>Score</p>
+        <span id="setScore">0</span>
       </div>
       <div class="timer">
-        <p>Time Left: <span id="timer">34</span></p>
+        <p>Time Left</p>
+        <span id="setTimer">30</span>
       </div>
     </div>
     <div class="wrapper">
-      <div id="question-wrapper" class="hide">
-        <div class="question">Question</div>
-        <div id="answer-btns" class="btns-flex">
-          <button class="btn">A</button>
-          <button class="btn">B</button>
-          <button class="btn">C</button>
-          <button class="btn">D</button>
-        </div>
+      <div id="question-content" class="question">Question</div>
+      <div id="answer-btns" class="btns-flex">
+        <button class="btn">Best</button>
+        <button class="btn">of</button>
+        <button class="btn">Luck</button>
+        <button class="btn">!!!</button>
       </div>
     </div>
 
     <div class="play-controls">
-      <button id="start-btn" class="start-button">Start</button>
+      <button id="play-btn">PLAY</button>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

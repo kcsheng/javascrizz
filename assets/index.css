@@ -30,25 +30,37 @@ h1 {
   color: var(--lightblue);
   width: 800px;
   max-width: 80%;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px;
 }
 
 button {
   display: block;
   background-color: var(--greyblue);
-  color: var(--bright);
-  padding: 7px 10px;
+  color: #fff;
+  padding: 6px 10px;
   border-radius: 10px;
   font-size: 22px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: var(--darkblue);
 }
 
 .wrapper {
   background-color: var(--bright);
-  border-radius: 15px;
+  border-radius: 25px;
   width: 800px;
   max-width: 80%;
+  box-shadow: 0 0 15px 2px;
 }
 
 .question {
@@ -64,4 +76,8 @@ button {
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
+}
+
+.hide {
+  display: none;
 }

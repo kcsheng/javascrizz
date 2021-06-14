@@ -139,7 +139,8 @@ function setQuestionAction() {
 
 function finaliseGame() {
   finalScore = score + timeLeft * 5;
-  console.log(finalScore);
+  localStorage.setItem("javaScrizzPlayer", finalScore);
+  window.location.assign("./leader.html");
 }
 
 function gameInit() {
@@ -150,5 +151,3 @@ function gameInit() {
   setNextQuestion();
 }
 playBtn.addEventListener("click", gameInit);
-
-export { finalScore };

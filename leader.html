@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/leader.css" />
-    <title>JavaCrizz - LeaderBoard</title>
+    <title>JavasCrizz - LeaderBoard</title>
   </head>
   <body>
-    <script type="module" src="leader.js"></script>
+    <h1>JavasCrizz</h1>
+    <div class="enter-name">
+      <p class="statement">Your final score is <span id="score"></span>.</p>
+      <form id="form">
+        <input id="name" type="text" placeholder="Please enter your name..." />
+        <button id="submit-btn" class="submit">SUBMIT</button>
+      </form>
+      <span id="warning" class="warning-message"></span>
+    </div>
+    <h2>Leader Board</h2>
+    <div class="wrapper">
+      <div class="leaderboard">
+        <div class="rank">
+          <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+        </div>
+        <div id="player-container class="players"">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div id="score-container" class="score">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <button id="reset-btn" class="reset">Reset</button>
+    </div>
+    <button id="one-more-try" class="play-again">PLAY AGAIN</button>
+    <script src="leader.js"></script>
   </body>
 </html>

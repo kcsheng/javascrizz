@@ -131,6 +131,14 @@ input {
   color: var(--red);
 }
 
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
 .hide {
   display: none;
 }

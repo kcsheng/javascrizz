@@ -50,6 +50,8 @@ const timerElement = document.querySelector("#setTimer");
 const questionElement = document.querySelector("#question-content");
 const answerButtons = document.querySelector("#answer-btns");
 const scoreElement = document.querySelector("#setScore");
+const correctSound = new Audio("./assets/correct.wav");
+const wrongSound = new Audio("./assets/wrong.mp3");
 let shuffledQuestions;
 let currentQuestionIndex;
 let score = 0;
@@ -110,8 +112,10 @@ function matchAnswer(e) {
   const buttonPressed = e.target;
   if (buttonPressed.dataset.correct) {
     scoreManager("add");
+    correctSound.play();
   } else {
     scoreManager("subtract");
+    wrongSound.play();
   }
 }
 

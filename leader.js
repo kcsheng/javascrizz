@@ -31,13 +31,14 @@ function checkName(e) {
   e.preventDefault();
   let name = nameElement.value;
   let existingNames = getStorageNames();
-  if (name === "") {
-    warningElement.innerHTML = "Name cannot be blank!";
+  if (name === "" || name.length >= 15) {
+    warningElement.innerHTML = "Name is not valid";
   } else if (existingNames.includes(name)) {
     warningElement.innerHTML = "Name is already taken!";
   } else {
     storeName();
     formElement.classList.add("hide");
+    warningElement.innerHTML = "";
   }
 }
 

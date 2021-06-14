@@ -29,3 +29,7 @@ The game includes the following features:
 ### Leaderboard page
 
 ![the leaderboard page](./assets/leaderboard.png)
+
+### Notes
+
+Contrary to the inital plan (as suggested by the flowchart) concerning when the leaderboard should appear, a decision has been made to only show it at the end of the game as a second page. This makes much more sense with the flow of gaming, which should focus more on the fun, rather than on the competition.

@@ -1,4 +1,4 @@
-Javascrizz is a browser-based interactive quiz game that tests user's javascript knowledge.
+Javascrizz is a browser-based interactive quiz game that tests user's javascript knowledge. The game can be accessed [here](https://kcsheng.github.io/javascrizz/).
 
 ### How to play
 
